@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,600;1,400;1,600&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    line-height: 1;
+}
+
+
+:root{
+    --blue: #2196F3;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #e51c23;
+    --orange: #fd7e14;
+    --yellow: #ff9800;
+    --green: #4CAF50;
+    --teal: #20c997;
+    --cyan: #9C27B0;
+    --white: #fff;
+    --gray: #666;
+    --gray-dark: #222;
+    --primary: #2196F3;
+    --secondary: #fff;
+    --success: #4CAF50;
+    --info: #9C27B0;
+    --warning: #ff9800;
+    --danger: #e51c23;
+    --light: #fff;
+    --dark: #222;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: #F5F6F7;
+}
+body #navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+body ul.navigation li a {
+    font-size: 1.3rem;
+    color: #fff!important;
+    font-weight: 300;
+
+}
+
+
+
+body .navbar {
+    background: #1a2a6c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 55px;
+}
+
+
+.navbar .uil-bars{
+    color: var(--white)!important;
+    font-size: 2rem;
+}
+body .navbar-brand{
+    display: inline-block;
+    color: var(--light);
+    text-indent: 120px;
+}
+/* body .navbar-bg a img{
+    height: 120px;
+    width: 120px; 
+} */
+
+section.banner{
+    height: auto;
+    width: 100%;
+     opacity: 0.8;
+     background: #1a2a6c;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+}
+
+section.banner .title{
+    margin-top: 25%;
+    color: var(--light);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.banner .lead{
+    color: var(--white);
+    text-align: justify;
+    margin: 10px;
+}
+
+section.banner span  {
+    /* position: relative; */
+}
+
+section.banner span img {
+    width: 10%;
+    height: 12%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+.banner-img{    
+    width: 509px;
+    height: 355px;
+}
+
+.img-bottom{
+    width: 100%; 
+}
+
+
+.service-img{
+    position: relative;
+    width: 100%;
+}
+
+section.services{
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.service-content{
+    position: absolute;
+    top: 300px;
+    left: 0;
+    width: 100%;
+    color: var(--white);
+}
+
+.service-desc{
+    font-weight: 300;
+     padding: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-slug::before {
+    content: '';
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transform: translateY(40px);
+    height: 5px;
+    width: 100px;
+    margin: 0px auto;
+    display: block;
+}
+
+.visitbtn { 
+    padding: 10px 20px;
+    border: none;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 260px;
+    color: #fff!important;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+ul.aboutus-list li {
+    padding: 10px 10px;
+    font-size: 1.2rem;
+    color: var(--white)!important;
+font-weight: 200!important;;
+}
+
+.office{
+    /* width: 100%; */
+    object-fit: cover;
+    /* height: 85%;
+    margin-top: 34px; */
+}
+
+
+
+
+section#aboutus {
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+section#aboutus h2{
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 200;
+    font-size: 3rem!important;
+}
+
+
+
+
+section#aboutus  .aboutus-title{
+    font-size: 1.9rem;
+    color:var(--white)!important;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+section#aboutus ul li{
+   margin: 12px 40px;
+   color: var(--gray);
+}
+
+
+
+
+
+
+#testimonial{
+    background: var(--secondary); 
+}
+
+
+.client::before{
+    content: '';
+    background: var(--indigo);
+    height: 5px;
+    width: 150px;
+    margin: 0px auto;
+    display: block;
+}
+.testimonial {
+    box-shadow: -2px 7px 20px 1px var(--orange);
+    padding: 23px;
+    text-align: center;
+    line-height: 1px;
+}
+.testimonial  > img{
+    width: 95px;
+    border-radius: 50%;
+    height: 95px;
+    box-shadow: -2px 7px 20px 1px #6D2441;
+    border: 1px solid var(--white);
+}
+
+.testimonial > p {
+    letter-spacing: 2px;
+}
+
+
+
+#social {
+   background:#130f40 ;
+padding: 100px 0px; 
+margin-top: 100px!important;
+box-shadow: 1 22px 20px 0 red;
+}
+
+
+
+
+div.social-icon{
+    font-size: 22px;
+    font-weight: 300;
+    width: 400px;
+    width: 500px!important;
+    /* margin-left: 90px; */
+    text-align: center;
+   
+}
+
+
+
+
+
+div.social-icon::after{
+
+    content: '';
+    display: block;
+    margin:0px 0px;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 0px;
+    width: 100%;
+
+    height: 6px;
+}
+
+
+div.social-icon img{
+    height: 100px;
+    object-fit: cover;
+    width: 110px; 
+    margin: 20px 0px 6px 0px;
+    transition: 0.5s;
+}
+
+div.social-icon a:hover img{
+ transform: translateY(-10px)
+}
+
+
+#footer {
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0px!important;
+}
+
+.footer-content p{
+    color: var(--white);
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 12px;
+    /* padding: 30px; */
+}
+
+.footer-content i{
+    font-size: 22px;
+    margin: 45px 10px;
+    padding: 1px 0px;
+    text-align: center;
+    border-radius: 10%;
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.footer-content .btn{
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    cursor: pointer;
+    width: 100px!important;
+    height: 20px!important;
+    line-height: 5px ;
+} 
+
+.footer-content .form-control{
+
+    padding: 10px 5px;
+
+}
+
+.footer-content .form-control::placeholder{
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+#footer hr {
+    background: #fff;
+    height: 2px!important;
+}
+
+#footer p{
+    color: white;
+    margin: 0px;
+    padding-bottom: 12px;
+    /* padding: 0px; */
+}
